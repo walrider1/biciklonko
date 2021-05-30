@@ -19,6 +19,6 @@ namespace Biciklino
         string[] vrstaVrata = {"Tapered", "Straight 1 1/8", "Straight 1.5"};
         string[] zadnjaOsovina = {"135", "142", "148", "150", "157"};
         string[] debljinaZO = { "9mm", "10mm", "12mm"};
-        string[] debljinaSticne = { };
+        string[] debljinaSticne = { "25.4", "27.2", "30.8", "31.6" };
     }
 }
