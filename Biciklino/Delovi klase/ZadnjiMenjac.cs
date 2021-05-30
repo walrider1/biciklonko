@@ -8,7 +8,7 @@ namespace Biciklino
 {
     class ZadnjiMenjac
     {
-        string[] brojBrzina = { "7s", "8s", "9s", "10s", "11s", "12s"};
+        public string[] brojBrzina = { "7s", "8s", "9s", "10s", "11s", "12s"};
 
         public string[] BrBrzina()
         {
