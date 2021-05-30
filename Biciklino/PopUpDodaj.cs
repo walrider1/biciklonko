@@ -67,7 +67,7 @@ namespace Biciklino
 
                         comboBox3.Items.Add(ram.velicina.GetValue(x));
                     }
-                    for (int x = 0; x < ram.Velicina().Length; x++)
+                    for (int x = 0; x < ram.Materijal().Length; x++)
                     {
                         comboBox3.DataSource = null;
 

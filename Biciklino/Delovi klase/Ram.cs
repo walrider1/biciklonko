@@ -12,13 +12,34 @@ namespace Biciklino
         {
             return velicina;
         }
+        public string[] Materijal()
+        {
+            return materijal;
+        }
+        public string[] VrstaVrata()
+        {
+            return vrstaVrata;
+
+        }
+        public string[] ZadnjaOsovina()
+        {
+            return zadnjaOsovina;
+        }
+        public string[] DebljinaZO()
+        {
+            return debljinaZO;
+        }
+        public string[] DebljinaSticne()
+        {
+            return debljinaSticne;
+        }
 
 
         public string[] velicina = {"XS", "S", "M", "L", "XL", "XXL"};
-        string[] materijal = {"Celik", "Aluminijum", "Karbon", "Aluminijum-Karbon", "Cr-mo"};
-        string[] vrstaVrata = {"Tapered", "Straight 1 1/8", "Straight 1.5"};
-        string[] zadnjaOsovina = {"135", "142", "148", "150", "157"};
-        string[] debljinaZO = { "9mm", "10mm", "12mm"};
-        string[] debljinaSticne = { };
+        public string[] materijal = {"Celik", "Aluminijum", "Karbon", "Aluminijum-Karbon", "Cr-mo"};
+        public string[] vrstaVrata = {"Tapered", "Straight 1 1/8", "Straight 1.5"};
+        public string[] zadnjaOsovina = {"135", "142", "148", "150", "157"};
+        public string[] debljinaZO = { "9mm", "10mm", "12mm"};
+        public string[] debljinaSticne = { };
     }
 }
