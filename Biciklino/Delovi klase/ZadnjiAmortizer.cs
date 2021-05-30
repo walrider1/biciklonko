@@ -8,7 +8,12 @@ namespace Biciklino
 {
     class ZadnjiAmortizer
     {
-        string dimenzije;
-        string[] vrsta = {"Opruga", "Vazduh"};
+        public string dimenzije;
+        public string[] vrsta = {"Opruga", "Vazduh"};
+
+        public string[] Vrsta()
+        {
+            return vrsta;
+        }
     }
 }
