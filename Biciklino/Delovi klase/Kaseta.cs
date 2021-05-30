@@ -8,7 +8,7 @@ namespace Biciklino
 {
     class Kaseta
     {
-        string[] brojBrzina = { "7s", "8s", "9s", "10s", "11s", "12s" };
+        public string[] brojBrzina = { "7s", "8s", "9s", "10s", "11s", "12s" };
         public string[] BrojBrz()
         {
             return brojBrzina;

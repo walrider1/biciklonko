@@ -8,8 +8,8 @@ namespace Biciklino
 {
     class Gume
     {
-        string[] precnikTocka = { "24", "26", "27.5", "28", "29" };
-        string sirinaGume;
+        public string[] precnikTocka = { "24", "26", "27.5", "28", "29" };
+        public string sirinaGume;
 
         public string[] PrecnikTocka()
         {

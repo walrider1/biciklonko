@@ -8,8 +8,8 @@ namespace Biciklino
 {
     class Grupa
     {
-        string[] brojBrzinaZadnjiMenjac = { "7s", "8s", "9s", "10s", "11s", "12s" };
-        string[] brojBrzinaNapred = { "1", "2", "3" };
+        public string[] brojBrzinaZadnjiMenjac = { "7s", "8s", "9s", "10s", "11s", "12s" };
+        public string[] brojBrzinaNapred = { "1", "2", "3" };
 
         public string[] BrojBRZnapred()
         {
