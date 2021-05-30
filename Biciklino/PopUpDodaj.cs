@@ -57,43 +57,134 @@ namespace Biciklino
         {
             selectedItem = comboBoxKategorija.SelectedIndex;
 
-            
+
             switch (selectedItem)
             {
                 case 0:
                     for (int x = 0; x < ram.Velicina().Length; x++)
                     {
-                        comboBoxKategorija.DataSource = null;
+                        comboBox3.DataSource = null;
 
-                        comboBoxKategorija.Items.Add(ram.velicina.GetValue(x));
+                        comboBox3.Items.Add(ram.velicina.GetValue(x));
+                    }
+                    for (int x = 0; x < ram.Velicina().Length; x++)
+                    {
+                        comboBox3.DataSource = null;
+
+                        comboBox3.Items.Add(ram.velicina.GetValue(x));
+                    }
+                    for (int x = 0; x < ram.Velicina().Length; x++)
+                    {
+                        comboBox3.DataSource = null;
+
+                        comboBox3.Items.Add(ram.velicina.GetValue(x));
+                    }
+                    for (int x = 0; x < ram.Velicina().Length; x++)
+                    {
+                        comboBox3.DataSource = null;
+
+                        comboBox3.Items.Add(ram.velicina.GetValue(x));
+                    }
+                    for (int x = 0; x < ram.Velicina().Length; x++)
+                    {
+                        comboBox3.DataSource = null;
+
+                        comboBox3.Items.Add(ram.velicina.GetValue(x));
+                    }
+                    for (int x = 0; x < ram.Velicina().Length; x++)
+                    {
+                        comboBox3.DataSource = null;
+
+                        comboBox3.Items.Add(ram.velicina.GetValue(x));
+                    }
+                    for (int x = 0; x < ram.Velicina().Length; x++)
+                    {
+                        comboBox3.DataSource = null;
+
+                        comboBox3.Items.Add(ram.velicina.GetValue(x));
+                    }
+                    for (int x = 0; x < ram.Velicina().Length; x++)
+                    {
+                        comboBox3.DataSource = null;
+
+                        comboBox3.Items.Add(ram.velicina.GetValue(x));
+                    }
+
+                    break;
+
+
+
+                case 1:
+                    for (int x = 0; x < ram.Velicina().Length; x++)
+                    {
+                        comboBox3.DataSource = null;
+
+                        comboBox3.Items.Add(ram.velicina.GetValue(x));
                     }
                     break;
-                case 1:
-
-                    break;
                 case 2:
+                    for (int x = 0; x < ram.Velicina().Length; x++)
+                    {
+                        comboBox3.DataSource = null;
 
+                        comboBox3.Items.Add(ram.velicina.GetValue(x));
+                    }
                     break;
                 case 3:
+                    for (int x = 0; x < ram.Velicina().Length; x++)
+                    {
+                        comboBox3.DataSource = null;
 
+                        comboBox3.Items.Add(ram.velicina.GetValue(x));
+                    }
                     break;
                 case 4:
+                    for (int x = 0; x < ram.Velicina().Length; x++)
+                    {
+                        comboBox3.DataSource = null;
 
+                        comboBox3.Items.Add(ram.velicina.GetValue(x));
+                    }
                     break;
                 case 5:
+                    for (int x = 0; x < ram.Velicina().Length; x++)
+                    {
+                        comboBox3.DataSource = null;
 
+                        comboBox3.Items.Add(ram.velicina.GetValue(x));
+                    }
                     break;
                 case 6:
+                    for (int x = 0; x < ram.Velicina().Length; x++)
+                    {
+                        comboBox3.DataSource = null;
 
+                        comboBox3.Items.Add(ram.velicina.GetValue(x));
+                    }
                     break;
                 case 7:
+                    for (int x = 0; x < ram.Velicina().Length; x++)
+                    {
+                        comboBox3.DataSource = null;
 
+                        comboBox3.Items.Add(ram.velicina.GetValue(x));
+                    }
                     break;
                 case 8:
+                    for (int x = 0; x < ram.Velicina().Length; x++)
+                    {
+                        comboBox3.DataSource = null;
 
+                        comboBox3.Items.Add(ram.velicina.GetValue(x));
+                    }
                     break;
                 case 9:
+                    for (int x = 0; x < ram.Velicina().Length; x++)
+                    {
+                        comboBox3.DataSource = null;
 
+                        comboBox3.Items.Add(ram.velicina.GetValue(x));
+                    }
                     break;
                 case 10:
 
@@ -106,7 +197,5 @@ namespace Biciklino
                     break;
 
             }
-            
         }
-    }
 }
