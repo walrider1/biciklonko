@@ -8,7 +8,17 @@ namespace Biciklino
 {
     class Lula
     {
-        string[] duzinaLule = {"35mm", "40mm", "45mm", "50mm"};
-        string[] hvatLule = {"25.4mm", "31.8mm", "35mm"};
+        public string[] duzinaLule = {"35mm", "40mm", "45mm", "50mm"};
+        public string[] hvatLule = {"25.4mm", "31.8mm", "35mm"};
+
+        public string[] Duzina()
+        {
+            return duzinaLule;
+        }
+
+        public string[] Hvat()
+        {
+            return hvatLule;
+        }
     }
 }

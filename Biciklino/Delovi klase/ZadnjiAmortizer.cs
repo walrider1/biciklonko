@@ -10,5 +10,10 @@ namespace Biciklino
     {
         string dimenzije;
         string[] vrsta = {"Opruga", "Vazduh"};
+
+        public string[] Vrsta()
+        {
+            return vrsta;
+        }
     }
 }

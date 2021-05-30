@@ -8,8 +8,23 @@ namespace Biciklino
 {
     class Kurble
     {
-        string[] duzinaKurble = {"165mm", "170mm", "175mm"};
-        string[] brojBrzina = { "1x", "2x", "3x" };
-        string[] materijal = {"Aluminijum", "Karbon" };
+        public string[] duzinaKurble = {"165mm", "170mm", "175mm"};
+        public string[] brojBrzina = { "1x", "2x", "3x" };
+        public string[] materijal = {"Aluminijum", "Karbon" };
+
+        public string[] Duzina()
+        {
+            return duzinaKurble;
+        }
+
+        public string[] BrojBrz()
+        {
+            return brojBrzina;
+        }
+
+        public string[] Materijal()
+        {
+            return materijal;
+        }
     }
 }
