@@ -10,5 +10,15 @@ namespace Biciklino
     {
         string[] brojBrzinaZadnjiMenjac = { "7s", "8s", "9s", "10s", "11s", "12s" };
         string[] brojBrzinaNapred = { "1", "2", "3" };
+
+        public string[] BrojBRZnapred()
+        {
+            return brojBrzinaNapred;
+        }
+
+        public string[] BrojBRZnazad()
+        {
+            return brojBrzinaZadnjiMenjac;
+        }
     }
 }
