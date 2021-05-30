@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace Biciklino
 {
     class Tockovi
+
     { 
         public string[] precnikTocka = {"24", "26", "27.5", "28", "29"};
         public string[] kolicina = { "Prednji", "Zadnji", "Prednji + Zadnji" };
@@ -14,5 +15,40 @@ namespace Biciklino
         public string[] dimezijeZNable = { "135", "142", "148", "150", "157" };
         public string[] debljinaZOsovine = { "9mm", "10mm", "12mm" };
         public string[] brojZbica = {"24h", "28h", "32h", "36h"};
+
+
+        #region
+        public string[] Precnik()
+        {
+            return precnikTocka;
+        }
+
+        public string[] Kolicina()
+        {
+            return kolicina;
+        }
+
+        public string[] Pnabla()
+        {
+            return dimezijaPNable;
+        }
+
+        public string[] Znabla()
+        {
+            return dimezijeZNable;
+        }
+
+        public string[] DebljinaZO()
+        {
+            return debljinaZOsovine;
+        }
+
+        public string[] BrojZ()
+        {
+            return brojZbica;
+        }
+        #endregion
+
     }
+
 }
