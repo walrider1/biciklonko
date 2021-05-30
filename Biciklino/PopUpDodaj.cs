@@ -40,7 +40,7 @@ namespace Biciklino
         private void comboBoxProizvodjac_SelectedIndexChanged(object sender, EventArgs e)
         {
 
-            
+
         }
 
         private void AddNewMajek(object sender, EventArgs e)
@@ -69,27 +69,27 @@ namespace Biciklino
                     }
                     for (int x = 0; x < ram.Materijal().Length; x++)
                     {
-                        comboBox3.DataSource = null;
+                        comboBox2.DataSource = null;
 
-                        comboBox3.Items.Add(ram.velicina.GetValue(x));
+                        comboBox2.Items.Add(ram.materijal.GetValue(x));
                     }
-                    for (int x = 0; x < ram.Velicina().Length; x++)
+                    for (int x = 0; x < ram.VrstaVrata().Length; x++)
+                    {
+                        comboBox4.DataSource = null;
+
+                        comboBox4.Items.Add(ram.vrstaVrata.GetValue(x));
+                    }
+                    for (int x = 0; x < ram.ZadnjaOsovina().Length; x++)
                     {
                         comboBox3.DataSource = null;
 
-                        comboBox3.Items.Add(ram.velicina.GetValue(x));
+                        comboBox3.Items.Add(ram.zadnjaOsovina.GetValue(x));
                     }
-                    for (int x = 0; x < ram.Velicina().Length; x++)
+                    for (int x = 0; x < ram.ZadnjaOsovina().Length; x++)
                     {
                         comboBox3.DataSource = null;
 
-                        comboBox3.Items.Add(ram.velicina.GetValue(x));
-                    }
-                    for (int x = 0; x < ram.Velicina().Length; x++)
-                    {
-                        comboBox3.DataSource = null;
-
-                        comboBox3.Items.Add(ram.velicina.GetValue(x));
+                        comboBox3.Items.Add(ram.zadnjaOsovina.GetValue(x));
                     }
                     for (int x = 0; x < ram.Velicina().Length; x++)
                     {
@@ -198,4 +198,5 @@ namespace Biciklino
 
             }
         }
+    }
 }
