@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BiciklinoModelStoreContainer" CdmEntityContainer="BiciklinoEntities1">
+    <EntitySetMapping Name="Delovis">
+      <EntityTypeMapping TypeName="BiciklinoModel.Delovi">
+        <MappingFragment StoreEntitySet="Delovi">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Deo" ColumnName="Deo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Novi_Deos">
+      <EntityTypeMapping TypeName="BiciklinoModel.Novi_Deo">
+        <MappingFragment StoreEntitySet="Novi Deo">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="NazivOglasa" ColumnName="NazivOglasa" />
+          <ScalarProperty Name="VrstaDelaID" ColumnName="VrstaDelaID" />
+          <ScalarProperty Name="OpisOglasa" ColumnName="OpisOglasa" />
+          <ScalarProperty Name="Proizvodjac" ColumnName="Proizvodjac" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
