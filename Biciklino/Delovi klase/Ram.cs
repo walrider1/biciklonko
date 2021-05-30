@@ -43,3 +43,8 @@ namespace Biciklino
         public string[] debljinaSticne = { "25.4", "27.2", "30.8", "31.6" };
     }
 }
+/*
+ * 5, 4, 10, 11, 12, 13
+ * 
+ * 
+ * */

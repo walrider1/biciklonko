@@ -64,51 +64,40 @@ namespace Biciklino
                     for (int x = 0; x < ram.Velicina().Length; x++)
                     {
                         comboBox3.DataSource = null;
-
+                        label5.Text = "Velicina:";
                         comboBox3.Items.Add(ram.velicina.GetValue(x));
                     }
                     for (int x = 0; x < ram.Materijal().Length; x++)
                     {
                         comboBox2.DataSource = null;
-
+                        label4.Text = "Materijal:";
                         comboBox2.Items.Add(ram.materijal.GetValue(x));
                     }
                     for (int x = 0; x < ram.VrstaVrata().Length; x++)
                     {
                         comboBox4.DataSource = null;
-
+                        label10.Text = "Vrsta vrata:";
                         comboBox4.Items.Add(ram.vrstaVrata.GetValue(x));
                     }
                     for (int x = 0; x < ram.ZadnjaOsovina().Length; x++)
                     {
-                        comboBox3.DataSource = null;
-
-                        comboBox3.Items.Add(ram.zadnjaOsovina.GetValue(x));
+                        comboBox5.DataSource = null;
+                        label11.Text = "Zadnja osovina:";
+                        comboBox5.Items.Add(ram.zadnjaOsovina.GetValue(x));
                     }
-                    for (int x = 0; x < ram.ZadnjaOsovina().Length; x++)
+                    for (int x = 0; x < ram.DebljinaZO().Length; x++)
                     {
-                        comboBox3.DataSource = null;
-
-                        comboBox3.Items.Add(ram.zadnjaOsovina.GetValue(x));
+                        comboBox6.DataSource = null;
+                        label12.Text = "Debljina zadnje osovine:";
+                        comboBox6.Items.Add(ram.debljinaZO.GetValue(x));
                     }
-                    for (int x = 0; x < ram.Velicina().Length; x++)
+                    for (int x = 0; x < ram.DebljinaSticne().Length; x++)
                     {
-                        comboBox3.DataSource = null;
-
-                        comboBox3.Items.Add(ram.velicina.GetValue(x));
+                        comboBox7.DataSource = null;
+                        label13.Text = "Debljina sticne:";
+                        comboBox7.Items.Add(ram.debljinaSticne.GetValue(x));
                     }
-                    for (int x = 0; x < ram.Velicina().Length; x++)
-                    {
-                        comboBox3.DataSource = null;
 
-                        comboBox3.Items.Add(ram.velicina.GetValue(x));
-                    }
-                    for (int x = 0; x < ram.Velicina().Length; x++)
-                    {
-                        comboBox3.DataSource = null;
-
-                        comboBox3.Items.Add(ram.velicina.GetValue(x));
-                    }
 
                     break;
 
